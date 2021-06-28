@@ -23,6 +23,7 @@ const Dialog: React.FC<DialogProps> = ({
     <Modal
       {...rest}
       useNativeDriver
+      useNativeDriverForBackdrop
       animationIn="fadeInUp"
       animationOut="fadeOutDown"
       backdropTransitionOutTiming={0}
